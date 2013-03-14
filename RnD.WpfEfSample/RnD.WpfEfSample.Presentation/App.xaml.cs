@@ -15,7 +15,7 @@ namespace RnD.WpfEfSample.Presentation
         public App()
         {
             this.Startup += new StartupEventHandler(App_Startup);
-            this.Exit += new ExitEventHandler(App_Exit);
+            //this.Exit += new ExitEventHandler(App_Exit);
         }
 
         void App_Startup(object sender, StartupEventArgs e)
@@ -23,9 +23,9 @@ namespace RnD.WpfEfSample.Presentation
             BootStrapper.Run();
         }
 
-        void App_Exit(object sender, ExitEventArgs e)
-        {
-            throw new NotImplementedException();
-        }
+        //void App_Exit(object sender, ExitEventArgs e)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
